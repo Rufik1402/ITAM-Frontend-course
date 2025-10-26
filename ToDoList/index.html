@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+
+    <link href="styles/reset.css" rel="stylesheet">
+    <link href="styles/main.css" rel="stylesheet">
+    <script type="module" src="scripts/dom.js" defer></script>
+    <script type="module" src="scripts/main.js" defer></script>
+
+
+
+    <title>ToDoshka</title>
+
+</head>
+<body>
+    <header>
+        <p>ToDoшка</p>
+    </header>
+    <div class="add-task">
+        <form class="add-task_form" id="add-task_form">
+            <input type="text" placeholder="Введите задачу:" maxlength="50" required />
+            <button class="submit" type="submit">+</button>
+            <select id="select">
+                <option value="all">Все</option>
+                <option value="completed">Выполненные</option>
+                <option value="active">Активные</option>
+            </select>
+        </form>
+    </div>
+
+    <div class="select">
+
+    </div>
+
+    <div class="task-list">
+        <ul>
+        </ul>
+    </div>
+    <footer>
+        <a href="https://t.me/Rufik1402" target="_blank">telegram</a>
+        <a href="mailto:rufat.magerramow@gmail.com">rufat.magerramow@gmail.com</a>
+    </footer>
+</body>
+</html>
